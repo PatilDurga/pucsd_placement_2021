@@ -1,0 +1,10 @@
+OUTPUT:
+**************************************
+uer@uer-hp-notebook:~$ ./a.out 09 00
+90
+uer@uer-hp-notebook:~$ ./a.out 03 30
+75
+uer@uer-hp-notebook:~$ ./a.out 05 00
+150
+uer@uer-hp-notebook:~$ ./a.out 08 45
+8
