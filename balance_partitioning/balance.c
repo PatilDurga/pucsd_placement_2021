@@ -32,10 +32,10 @@ int main(int argc,char * arg[])
 	{
 		arr[i]=2*i+4;
 	}
-	for(int i=0;i<n;i++)
+	/*for(int i=0;i<n;i++)
 	{
 		printf("%d ",arr[i]);
-	}
+	}*/
 	
 	printf("\n Minimum diffrence between subsets : %d\n",findMin(arr,n));
 	
