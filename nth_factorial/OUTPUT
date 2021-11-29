@@ -1,1 +1,13 @@
 OUTPUT:
+uer@uer-hp-notebook:~$ ./a.out 13
+233
+uer@uer-hp-notebook:~$ ./a.out 21
+10946
+uer@uer-hp-notebook:~$ ./a.out 31
+1346269
+uer@uer-hp-notebook:~$ ./a.out 47
+-1323752223
+uer@uer-hp-notebook:~$ ./a.out 61
+764848393
+uer@uer-hp-notebook:~$ ./a.out 85
+-1289228135
