@@ -24,6 +24,25 @@ int findMin(int arr[],int n)
 	return rec(arr , n , 0 , totsum);
 
 }
+nt fun(int *arr, int l)
+{	
+	
+	long i, a = 0, b = 0, lsum = 0, rsum = 0, d = INT_MAX;	
+ int resind = 0;	
+ for (i = 1; i < l - 1; i++)	{		
+	 a = findsum(arr, 0, i - 1);		
+	 b = findsum(arr, i + 1, l- 1); 		
+	 int c = abs(a - b); 		
+	 if (c < d)
+	 {			
+		 resind = i;			
+		 d = c;			
+		 lsum = a;			
+		rsum = b; 
+	 }
+ }
+
+	
 
 int main(int argc,char * arg[])
 {
@@ -39,6 +58,8 @@ int main(int argc,char * arg[])
 	}*/
 	
 	printf("\n Minimum diffrence between subsets : %d\n",findMin(arr,n));
+	printf("\n  %d\n",fun(arr,n));
+	
 	
 	return 0;
 	
