@@ -1,5 +1,6 @@
 OUTPUT:
 **************************************
+
 uer@uer-hp-notebook:~$ ./a.out 09 00
 90
 uer@uer-hp-notebook:~$ ./a.out 03 30
@@ -7,4 +8,16 @@ uer@uer-hp-notebook:~$ ./a.out 03 30
 uer@uer-hp-notebook:~$ ./a.out 05 00
 150
 uer@uer-hp-notebook:~$ ./a.out 08 45
+8
+
+OUTPUT FOR BONUS PART :
+****************************
+      
+uer@uer-hp-notebook:~$ ./a.out 09 00 30
+180
+uer@uer-hp-notebook:~$ ./a.out 03 30 45
+105
+uer@uer-hp-notebook:~$ ./a.out 05 00 50
+60
+uer@uer-hp-notebook:~$ ./a.out 08 45 05
 8
