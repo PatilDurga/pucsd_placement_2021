@@ -1,4 +1,5 @@
 OUTPUT:
+****************************
 uer@uer-hp-notebook:~$ ./a.out 13
 233
 uer@uer-hp-notebook:~$ ./a.out 21
@@ -11,3 +12,14 @@ uer@uer-hp-notebook:~$ ./a.out 61
 764848393
 uer@uer-hp-notebook:~$ ./a.out 85
 -1289228135
+
+OUTPUT FOR BONUS PART :
+*****************************
+uer@uer-hp-notebook:~$ ./a.out 3
+34
+uer@uer-hp-notebook:~$ ./a.out 10
+832040
+uer@uer-hp-notebook:~$ ./a.out 22
+27777890035288
+uer@uer-hp-notebook:~$ ./a.out 26
+8944394323791464
