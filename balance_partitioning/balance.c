@@ -38,6 +38,7 @@ int main(int argc,char * arg[])
 	}
 	
 	printf("\n Minimum diffrence between subsets : %d\n",findMin(arr,n));
+	
 	return 0;
 	
 
