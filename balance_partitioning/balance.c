@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int rec(int arr[] , int i, int sum , int totsum)
 {
 
