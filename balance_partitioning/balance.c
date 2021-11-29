@@ -30,8 +30,8 @@ nt fun(int *arr, int l)
 	long i, a = 0, b = 0, lsum = 0, rsum = 0, d = INT_MAX;	
  int resind = 0;	
  for (i = 1; i < l - 1; i++)	{		
-	 a = findsum(arr, 0, i - 1);		
-	 b = findsum(arr, i + 1, l- 1); 		
+	 a = calsum(arr, 0, i - 1);		
+	 b = calsum(arr, i + 1, l- 1); 		
 	 int c = abs(a - b); 		
 	 if (c < d)
 	 {			
@@ -40,7 +40,12 @@ nt fun(int *arr, int l)
 		 lsum = a;			
 		rsum = b; 
 	 }
+	 
+	 
  }
+int calsum(int *arr,int l)
+{
+}
 
 	
 
